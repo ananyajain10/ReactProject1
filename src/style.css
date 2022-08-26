@@ -3,11 +3,15 @@
 }
 body{
     margin: 0;
-    font-family: Poppins
+    min-height: 100vh;
+    display: flex;
+  align-items: center;
+    font-family: 'Inter', sans-serif;
+    bottom: 0px; 
 }
 nav{
     height: 70px;
-    width: 500px;
+    width: 900px;
     display: flex;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
@@ -18,20 +22,25 @@ nav{
 }
 .hero--img{
     
-    height: 300px;
+    height: 340px;
     align-self: center;
     padding: 40px;
-    width: 500px;  
+    width: 600px; 
+    margin-left: 154px; 
 }
 
 .card{
     display: flex;
     width: 300px;
     flex-direction: column;
+    flex: 0 0 auto;     
+    
+    
 }
 
 .card--span{
     text-align: left;
+    display: flex;
 }
 .card--life{
     text-align: left;
@@ -54,8 +63,22 @@ nav{
     margin-top: 30px;
 }
 .hero--online{
-    width: 226px;
+    width: 467px;
+    margin-left: 40px;
+    height: 135px;
+    font-size: 20px;
+    text-align: left;
 }
 h2{
     margin-bottom: -15px;
+}
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    width: 890px;
+}
+.section{
+    padding: 20px;
 }
